@@ -36,6 +36,7 @@ class Main:
     
     def get_input(self):
         # This function retreives input from the user and calls a function based upon the option they entered.
+        action = 0
 
         while True:
             # This while loop validates that the user entered an integer
@@ -44,6 +45,10 @@ class Main:
             except ValueError:
                 print("")
                 print("ERROR: Your input was invalid, please enter a valid option.")
+            
+            if action < 1 or action > 6:
+                print("")
+                print("ERROR: The option you entered does not exist, please try again.") 
             else:
                 break
 
