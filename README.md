@@ -12,7 +12,7 @@
 
 * This is a brief video that I recorded which shows how to use the program and what goes on behind the scenes in terms of the code and structure.
 
-* [Software Demo Video](http://youtube.link.goes.here)
+* [Software Demo Video](https://youtu.be/3qxSU7dkjyE)
 
 # Development Environment
 
