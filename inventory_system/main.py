@@ -3,11 +3,6 @@ from items import Item
 
 class Main:
 
-    """
-    TO DO:
-    - video
-    - github
-    """
 
     def __init__(self):
         # defines class wide variables and calls the update function
